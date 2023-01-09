@@ -1,0 +1,81 @@
+
+@import "node_modules/ol/ol.css";
+
+html, body {
+  
+  
+  background: rgb(200, 217, 223);
+}
+#menu ul, li {
+        margin:0px;
+        padding:0px;
+        list-style-type:none;
+    }
+    
+    #menu {
+        display:block;
+        position:absolute;
+        background-color: rgb(249, 253, 255);
+        width: 100px;
+        height: 30px;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        font-size: 100%;
+        top:18px;
+        left:px;
+    }
+
+    #menu > li > ul {
+        position:absolute;
+        top: 0px; 
+        left: 0px;
+        display:none;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 200px;
+        font-size: 15px;
+        padding: 20 0 10 10;
+    }
+    #menu > li:hover > ul {
+        display:block;  
+    }
+.box {
+  position: absolute;
+  width: 1535px;
+height: 94px;
+left: 0px;
+top: 0px;
+  font-size: 130%;
+  color: rgb(180, 210, 222);
+  text-align: center;
+  background-color: rgb(153, 190, 203);
+  font-style: inherit;
+}
+.button {
+  position: relative;
+  background-color: rgb(235, 241, 244);
+  width: 242px;
+  height: 105px;
+  left: 0px;
+  top: 100px;
+  text-align: center;
+  font-size: 95%;
+  line-height: 20px;
+ 
+}
+.back {
+  position: absolute;
+  width: 1294px;
+  height: 600px;
+  left: 250px;
+  top: 20px;
+}
+#map {
+  position: absolute;
+  width: 1260px;
+  height: 627px;
+  left: 261px;
+  top: 114px;
+}
+
