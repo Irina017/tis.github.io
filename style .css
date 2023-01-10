@@ -15,7 +15,7 @@ html, body {
     #menu {
         display:block;
         position:absolute;
-        background-color: rgb(249, 253, 255);
+        background-color: rgb(235, 240, 247);
         width: 100px;
         height: 30px;
         left: 0px;
@@ -42,14 +42,14 @@ html, body {
     }
 .box {
   position: absolute;
-  width: 1535px;
+  width: 1470px;
 height: 94px;
 left: 0px;
 top: 0px;
   font-size: 130%;
-  color: rgb(180, 210, 222);
+  color: rgb(142, 181, 197);
   text-align: center;
-  background-color: rgb(153, 190, 203);
+  background-color: rgb(157, 191, 204);
   font-style: inherit;
 }
 .button {
@@ -73,8 +73,9 @@ top: 0px;
 }
 #map {
   position: absolute;
-  width: 1260px;
-  height: 627px;
+  background: rgb(13, 160, 234);
+  width: 1210px;
+  height: 587px;
   left: 261px;
   top: 114px;
 }
